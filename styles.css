@@ -45,22 +45,17 @@ body {
     border-radius: 5px;
 }
 
-/* styles.css */
 
-/* Customize Bootstrap's primary color to make it darker */
 :root {
     --primary-color: #333;
-    /* Change to your desired dark color */
 }
 
-/* Override Bootstrap's default styles as needed */
 .section {
     background-color: var(--primary-color);
     color: #fff;
     padding: 50px;
     margin-bottom: 20px;
     border-radius: 0;
-    /* Remove border-radius for full-width sections */
 }
 
 .content h2 {
@@ -81,7 +76,6 @@ body {
 .fade-in {
     opacity: 0;
     transform: translateY(20px);
-    /* Optional: Start with a slight vertical offset */
     transition: opacity 1s, transform 1s;
 }
 
